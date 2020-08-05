@@ -198,10 +198,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .btn-border {
   border-style: solid;
-  border-width: 2px;
+  border-width: 4px;
   cursor: pointer;
   background-color: #000000;
-  border-color: #3c9cfd;
   color: #3c9cfd;
 }
 
@@ -212,7 +211,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .btn-border-filled {
   cursor: pointer;
   background-color: #4AC959;
-  border: 2px solid #fff;
+  border-radius: 0px;
   color: #FFFFFF;
 }
 
@@ -518,9 +517,7 @@ button:focus {
 }
 
 .menu-bg {
-  background: -webkit-linear-gradient(left, #3c96ff 0%, #2dfbff 100%) !important;
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%) !important;
-  box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.1);
+  background:  #4AC959 !important;
   z-index: 9999;
   padding: 5px;
 }
@@ -736,8 +733,8 @@ h2 {
 }
 
 .hero-area-2 .contents .btn-border {
-  border: 2px solid #fff;
-  color: #fff;
+  border-radius: 0px;
+  color: #ffffff;
 }
 
 .hero-area-2 .intro-img {
