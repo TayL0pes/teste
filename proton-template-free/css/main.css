@@ -200,7 +200,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   border-style: solid;
   border-width: 2px;
   cursor: pointer;
-  background-color: transparent;
+  background-color: #000000;
   border-color: #3c9cfd;
   color: #3c9cfd;
 }
@@ -211,9 +211,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .btn-border-filled {
   cursor: pointer;
-  background-color: #fff;
+  background-color: #4AC959;
   border: 2px solid #fff;
-  color: #3c9cfd;
+  color: #FFFFFF;
 }
 
 .btn-border-filled:hover {
@@ -845,9 +845,9 @@ h2 {
    Video promo Style
    ========================================================================== */
 .video-promo {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(0deg, #000000 0%, #000000 100%);
+  background-image: -webkit-linear-gradient(0deg, #000000 0%, #000000 100%);
+  background-image: -ms-linear-gradient(0deg, #000000 0%, #000000 100%);
 }
 
 .video-promo .video-promo-content {
