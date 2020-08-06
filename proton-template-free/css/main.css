@@ -201,7 +201,6 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   border-width: 4px;
   cursor: pointer;
   background-color: #000000;
-  color: #3c9cfd;
 }
 
 .btn-border:hover {
@@ -213,12 +212,6 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   background-color: #4AC959;
   border-radius: 0px;
   color: #FFFFFF;
-}
-
-.btn-border-filled:hover {
-  color: #3c9cfd;
-  background-color: #ffffff;
-  box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
 }
 
 .btn-lg {
@@ -353,7 +346,7 @@ button:focus {
   margin-left: 130px;
   padding: 20px 40px;
   padding-left: 125px;
-  padding-top: 25px;
+  padding-top: 17px;
   text-transform: none;
 }
 
