@@ -325,6 +325,38 @@ button:focus {
   padding: 0;
 }
 
+.planos {
+  color: #000000 !important;
+  padding: 10px 0px !important;
+}
+
+.entrar {
+  background: #000000 !important;
+  padding: 10px 30px !important;
+  margin-left: 25px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+#infoi {
+  position: absolute;
+  top: 8px;
+  height: 50px;
+  padding: 12px 30px;
+  padding-top: 15px;
+  text-transform: none;
+}
+
+#infoi2 {
+  margin-left: 130px;
+  padding: 20px 40px;
+  padding-left: 125px;
+  padding-top: 25px;
+  text-transform: none;
+}
+
 /* ==========================================================================
    Social Iocns
    ========================================================================== */
@@ -674,7 +706,7 @@ button:focus {
  Hero Production version
  ========================================================================== */
 .hero-area-2 {
-  color: #fff;
+  color: #FFFFFF;
   overflow: hidden;
   position: relative;
 }
@@ -1463,7 +1495,7 @@ h2 {
   padding: 30px;
   margin: 15px 0;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 0px;
   -webkit-transition: background-image 0.3s ease-out;
   -moz-transition: background-image 0.3s  ease-out;
   -o-transition: background-image 0.3s  ease-out;
@@ -2236,15 +2268,20 @@ footer .menu li a:hover {
 }
 
 .copyright {
-  padding: 15px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 94px !important;
+  margin-left: 0px;
   color: #ffffff;
-  margin-top: 30px;
+  scroll-margin-left: 0px;
+  background: #000000;
+}
+.copy {
+  color: #FFFFFF;
+  text-align: center;
 }
 
 .copyright p {
   margin-bottom: 0;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .copyright p a {
