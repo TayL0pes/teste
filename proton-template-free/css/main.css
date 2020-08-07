@@ -197,7 +197,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .btn-border {
-  border-style: solid;
+  /*border-style: solid;*/
+  border-radius: 0px;
   border-width: 4px;
   cursor: pointer;
   background-color: #000000;
@@ -335,7 +336,7 @@ button:focus {
 
 #infoi {
   position: absolute;
-  top: 8px;
+  top: 5px;
   height: 50px;
   padding: 12px 30px;
   padding-top: 15px;
@@ -346,13 +347,18 @@ button:focus {
   margin-left: 130px;
   padding: 20px 40px;
   padding-left: 125px;
-  padding-top: 17px;
+  padding-top: 18px;
   text-transform: none;
 }
-
+.logo-nav{
+  width: 200px;
+}
 /* ==========================================================================
    Social Iocns
    ========================================================================== */
+   .icone{
+     margin-right: 10px;
+   }
 .social-icons {
   margin-bottom: 20px;
 }
@@ -1484,10 +1490,26 @@ h2 {
 /* ==========================================================================
   Pricing Table
   ========================================================================== */
+  .titulo-x {
+    font-size: 40px !important;
+    text-align: center;
+  }
+  .rs-x{
+    font-size:40px !important;
+    text-align: center;
+    color:#979797; 
+  }
+  .bt-f{
+    background: #979797;
+    padding: 10px;
+    color: #FFFFFF;
+    border-radius: 0px;
+    font-size: 24px;
+  }
 .pricing-table {
   padding: 30px;
   margin: 15px 0;
-  text-align: center;
+  text-align: left;
   border-radius: 0px;
   -webkit-transition: background-image 0.3s ease-out;
   -moz-transition: background-image 0.3s  ease-out;
@@ -1495,7 +1517,10 @@ h2 {
   transition: background-image 0.3s  ease-out;
   box-shadow: 0px 0px 43px 0px rgba(131, 131, 131, 0.23);
 }
-
+.pricing-table:hover{
+  background-image: none !important;
+  color: #000000 !important;
+}
 .pricing-table .icon {
   margin-bottom: 10px;
 }
@@ -1534,7 +1559,7 @@ h2 {
 .pricing-table:hover,
 .pricing-active {
   color: #fff;
-  -webkit-transition: background-image 0.3s ease-out;
+  /*-webkit-transition: background-image 0.3s ease-out;
   -moz-transition: background-image 0.3s  ease-out;
   -o-transition: background-image 0.3s  ease-out;
   transition: background-image 0.3s  ease-out;
@@ -1542,7 +1567,7 @@ h2 {
   background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
   background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
   box-shadow: 0px 0px 43px 0px rgba(131, 131, 131, 0.38);
-}
+}*/
 
 .pricing-table:hover .pricing-details h2,
 .pricing-active .pricing-details h2 {
